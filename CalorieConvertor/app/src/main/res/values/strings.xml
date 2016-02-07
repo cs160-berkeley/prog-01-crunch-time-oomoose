@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calorie Convertor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calculation1">calculation1</string>
+    <string name="title_activity_situps_convertor">Situps Convertor</string>
+    <string name="title_activity_jj_convertor">Jumping Jack Convertor</string>
+    <string name="title_activity_calculation2">calculation2</string>
+    <string name="title_activity_calculation3">Jumping Jacks Convertor</string>
+    <string name="title_activity_calculation4">calculation4</string>
+    <string name="title_activity_calculation5">Squats Convertor</string>
+    <string name="title_activity_calculation6">Leg-lift Convertor</string>
+    <string name="title_activity_calculation7">Plank Convertor</string>
+    <string name="title_activity_calculation8">Pullup Convertor</string>
+    <string name="title_activity_calculation9">Cycling Convertor</string>
+    <string name="title_activity_calculation10">Walking Convertor</string>
+    <string name="title_activity_calculation11">Swimming Convertor</string>
+    <string name="title_activity_calculation12">Stair-Climbing Convertor</string>
+</resources>

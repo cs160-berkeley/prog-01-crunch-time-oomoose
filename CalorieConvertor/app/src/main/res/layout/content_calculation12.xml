@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jenny.calorieconvertor.calculation12"
+    tools:showIn="@layout/activity_calculation12">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:imeOptions="actionGo"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/reps12" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="minutes"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0 Calories"
+        android:editable="true"
+        android:id="@+id/calories12"
+        android:layout_below="@+id/reps12"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/calories12"
+        android:nestedScrollingEnabled="true"
+        android:scrollIndicators="left">
+
+        <Button
+
+            android:text="Pushup 0 reps\n"
+            android:drawableLeft="@drawable/exercise1"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pup12"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:scrollIndicators="right" />
+        <Button
+
+            android:text="Situp 0 reps \n"
+            android:drawableLeft="@drawable/flexions"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sup12"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:gravity="center"
+            android:scrollIndicators="right" />
+        <Button
+
+            android:text="Jumping Jack 0 minutes \n"
+            android:drawableLeft="@drawable/jump11"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/jj12" />
+
+        <Button
+
+            android:text="Jogging 0 minutes\n"
+            android:drawableLeft="@drawable/runner9"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/jg12" />
+
+        <Button
+
+            android:text="Squats 0 reps \n"
+            android:drawableLeft="@drawable/working7"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/sq12" />
+
+
+
+        <Button
+
+            android:text="Leglift 0 minutes\n"
+            android:drawableLeft="@drawable/female107"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/ll12" />
+
+        <Button
+
+            android:text="Plank 0 reps\n"
+            android:drawableLeft="@drawable/exercise54"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/pk12" />
+
+        <Button
+
+            android:text="Pullup 0 reps\n"
+            android:drawableLeft="@drawable/pulling"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/pp12" />
+
+        <Button
+
+            android:text="Cycling 0 minutes\n"
+            android:drawableLeft="@drawable/person316"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/cy12" />
+
+        <Button
+
+            android:text="Walking 0 minutes\n"
+            android:drawableLeft="@drawable/walking2"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/w12" />
+
+        <Button
+
+            android:text="Swimming 0 minutes\n"
+            android:drawableLeft="@drawable/olympic22"
+            android:layout_gravity="fill_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:layout_weight="1"
+            android:id="@+id/sw12" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
