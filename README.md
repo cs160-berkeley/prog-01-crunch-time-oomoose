@@ -12,7 +12,12 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/Home.PNG" height="400" alt="Screenshot"/>
+<img src="screenshots/Selecting an input.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/first-look convertor.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/inputting.JPG" height="400" alt="Screenshot"/>
+<img src="screenshots/Immediate conversion.JPG" height="400" alt="Screenshot"/>
+
 
 ## Acknowledgments
 
