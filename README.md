@@ -1,6 +1,8 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+This app converts the amount of exercise someone does, to the amount of calories it burned by exercising (rounded). It also 
+finds out what are the caloric equivalents in terms of other types of exercise (also rounded, because it doesn't make sense to 
+do half a pushup, and half a minute doesn't really make a difference). It includes all 12 exercises. 
 
 ## Authors
 
@@ -8,7 +10,7 @@ Jenny Lu ([j.lu@berkeley.edu](mailto:j.lu@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+https://youtu.be/rHVOYA9EaLM
 
 ## Screenshots
 
